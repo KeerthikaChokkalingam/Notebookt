@@ -16,6 +16,10 @@
 		7FB480BF2C0DDDE600D59AAB /* NotebooktTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB480BE2C0DDDE600D59AAB /* NotebooktTests.swift */; };
 		7FB480C92C0DDDE600D59AAB /* NotebooktUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB480C82C0DDDE600D59AAB /* NotebooktUITests.swift */; };
 		7FB480CB2C0DDDE600D59AAB /* NotebooktUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB480CA2C0DDDE600D59AAB /* NotebooktUITestsLaunchTests.swift */; };
+		7FB480DB2C0DE51000D59AAB /* notesBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB480DA2C0DE51000D59AAB /* notesBaseView.swift */; };
+		7FB480DD2C0DE52B00D59AAB /* notesModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB480DC2C0DE52B00D59AAB /* notesModelClass.swift */; };
+		7FB480DF2C0DE57400D59AAB /* notesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB480DE2C0DE57400D59AAB /* notesViewModel.swift */; };
+		7FB480E52C0DE76500D59AAB /* coreDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB480E42C0DE76500D59AAB /* coreDataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		7FB480C42C0DDDE600D59AAB /* NotebooktUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotebooktUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB480C82C0DDDE600D59AAB /* NotebooktUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebooktUITests.swift; sourceTree = "<group>"; };
 		7FB480CA2C0DDDE600D59AAB /* NotebooktUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebooktUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FB480DA2C0DE51000D59AAB /* notesBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesBaseView.swift; sourceTree = "<group>"; };
+		7FB480DC2C0DE52B00D59AAB /* notesModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesModelClass.swift; sourceTree = "<group>"; };
+		7FB480DE2C0DE57400D59AAB /* notesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesViewModel.swift; sourceTree = "<group>"; };
+		7FB480E42C0DE76500D59AAB /* coreDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 		7FB480A32C0DDDE500D59AAB /* Notebookt */ = {
 			isa = PBXGroup;
 			children = (
+				7FB480E32C0DE75600D59AAB /* Core Data Base */,
+				7FB480D92C0DE4FE00D59AAB /* View Model */,
+				7FB480D82C0DE4F500D59AAB /* Model */,
+				7FB480D72C0DE4E900D59AAB /* View */,
 				7FB480A42C0DDDE500D59AAB /* AppDelegate.swift */,
 				7FB480A62C0DDDE500D59AAB /* SceneDelegate.swift */,
 				7FB480A82C0DDDE500D59AAB /* ViewController.swift */,
@@ -125,6 +137,38 @@
 				7FB480CA2C0DDDE600D59AAB /* NotebooktUITestsLaunchTests.swift */,
 			);
 			path = NotebooktUITests;
+			sourceTree = "<group>";
+		};
+		7FB480D72C0DE4E900D59AAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FB480DA2C0DE51000D59AAB /* notesBaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FB480D82C0DE4F500D59AAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FB480DC2C0DE52B00D59AAB /* notesModelClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FB480D92C0DE4FE00D59AAB /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FB480DE2C0DE57400D59AAB /* notesViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		7FB480E32C0DE75600D59AAB /* Core Data Base */ = {
+			isa = PBXGroup;
+			children = (
+				7FB480E42C0DE76500D59AAB /* coreDataBase.swift */,
+			);
+			path = "Core Data Base";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +303,10 @@
 			files = (
 				7FB480A92C0DDDE500D59AAB /* ViewController.swift in Sources */,
 				7FB480A52C0DDDE500D59AAB /* AppDelegate.swift in Sources */,
+				7FB480DD2C0DE52B00D59AAB /* notesModelClass.swift in Sources */,
+				7FB480E52C0DE76500D59AAB /* coreDataBase.swift in Sources */,
+				7FB480DB2C0DE51000D59AAB /* notesBaseView.swift in Sources */,
+				7FB480DF2C0DE57400D59AAB /* notesViewModel.swift in Sources */,
 				7FB480A72C0DDDE500D59AAB /* SceneDelegate.swift in Sources */,
 				7FB480AF2C0DDDE500D59AAB /* Notebookt.xcdatamodeld in Sources */,
 			);
